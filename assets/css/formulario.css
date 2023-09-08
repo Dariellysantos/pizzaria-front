@@ -1,0 +1,70 @@
+h1 {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+body {
+  background-color: #d11414;
+}
+
+.formulario {
+  display: flex;
+  width: 850px;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 50px;
+  height: 650px;
+}
+
+.formulario-cadastro {
+  padding-top: 75px;
+}
+
+.fazer-cadastro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 120px;
+}
+
+.fazer-login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-right: 2px solid white;
+  padding-right: 120px;
+}
+
+.icon-usuario {
+  padding-bottom: 15px;
+}
+
+label {
+  font-family: "Montserrat";
+  font-size: 23px;
+  color: white;
+}
+
+.input-text {
+  border-radius: 10px;
+  background-color: white;
+  opacity: 0.36;
+}
+
+.botton-cadastro {
+  border-radius: 30px;
+  border: #d11414;
+  background-color: #ffde59;
+  font-family: "Montserrat";
+  font-size: 17, 8px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 120px;
+  height: 30px;
+  border-style: solid;
+}

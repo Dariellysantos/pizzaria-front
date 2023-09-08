@@ -1,0 +1,102 @@
+table {
+  margin: 5px;
+}
+
+td {
+  border: 2px solid #d11414;
+  font-family: "Montserrat";
+  align-items: center;
+}
+
+th {
+  border: 2px solid #d11414;
+  background-color: #ffde59;
+  color: #d11414;
+  font-family: "Montserrat";
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  background: #fffff0;
+}
+
+dt {
+  color: #ffde59;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+dd {
+  color: #d11414;
+  margin-right: 10px;
+}
+
+.tamanho::first-letter {
+  align-items: center;
+  color: #ffde59;
+}
+
+p {
+  color: #d11414;
+  text-align: center;
+  margin: 0px 10px 0px 10px;
+}
+
+.title-table {
+  text-transform: uppercase;
+  color: #d11414;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.title {
+  font-family: impact;
+  text-transform: uppercase;
+  color: #d11414;
+  font-weight: bold;
+  font-size: 78px;
+  text-shadow: #000 1px 0px 6px;
+}
+
+.cardapio {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.sticky {
+  padding-right: 300px;
+}
+
+.tables-image {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.comida {
+  flex-wrap: wrap;
+}
+
+.lado-direito {
+  flex-wrap: wrap-reverse;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.bebida {
+  margin-top: 60px;
+  width: 500px;
+}
+
+@media only screen and (max-width: 1230px) {
+  .bebida {
+    width: 1000px;
+    height: 1000px;
+  }
+  .comida {
+    width: 1000px;
+    height: 1000px;
+  }
+}

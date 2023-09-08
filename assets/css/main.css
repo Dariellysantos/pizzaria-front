@@ -1,0 +1,31 @@
+.sticky {
+  position: sticky;
+  display: flex;
+  padding: 5px;
+  top: 0;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.lado-direito {
+  flex-wrap: wrap-reverse;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-maior {
+  margin-right: 5px;
+  flex-wrap: wrap;
+}
+
+.img-lateral {
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 1230px) {
+  .img-lateral {
+    width: 800px;
+    height: 800px;
+  }
+}
