@@ -24,4 +24,4 @@
   <br><br>
     <img src="img-designer/mobile-cardapio-pizzaria.gif" alt="cardapio da pagina" >
     <br><br>
-      <img src="img-designer/mobile-cardapio-pizzaria.gif" alt="login-cadastro da pagina" >
+      <img src="img-designer/mobile-login-cadastro-pizzaria.gif" alt="login-cadastro da pagina" >
