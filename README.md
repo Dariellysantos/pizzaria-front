@@ -25,3 +25,5 @@
     <img src="img-designer/mobile-cardapio-pizzaria.gif" alt="cardapio da pagina" >
     <br><br>
       <img src="img-designer/mobile-login-cadastro-pizzaria.gif" alt="login-cadastro da pagina" >
+
+      https://66ea1779f9e7c3b64d2cd6cb--pizzaria-dary.netlify.app/pages/cardapio
